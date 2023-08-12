@@ -1,6 +1,6 @@
 ---
 icon: pen-to-square
-date: 2022-01-01
+date: 2023-08-12
 category:
     - 工具
 tag:
@@ -8,7 +8,7 @@ tag:
     - 极客
 ---
 
-# vscode 基本设置
+# 代码格式化配置
 
 ## 标题 2
 

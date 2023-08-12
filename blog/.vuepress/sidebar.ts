@@ -8,13 +8,15 @@ export default sidebar({
             icon: "book",
             prefix: "posts/",
             children: "structure",
+            collapsible: true,
         },
         {
-            text: "工具",
+            text: "工具相关",
             icon: "screwdriver-wrench",
             prefix: "tools/",
             // 表示按照目录结构
             children: "structure",
+            collapsible: true,
         },
         "intro",
         "slides",
