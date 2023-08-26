@@ -1,7 +1,7 @@
 ---
 home: true
 layout: BlogHome
-icon: home
+icon: fa-home
 title: 博客主页
 heroImage: /logo.svg
 heroText: 笔记

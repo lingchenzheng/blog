@@ -5,16 +5,23 @@ export default sidebar({
         "",
         {
             text: "文章",
-            icon: "book",
+            icon: "fa-book",
             prefix: "posts/",
             children: "structure",
             collapsible: true,
         },
         {
             text: "工具相关",
-            icon: "screwdriver-wrench",
+            icon: "fa-screwdriver-wrench",
             prefix: "tools/",
             // 表示按照目录结构
+            children: "structure",
+            collapsible: true,
+        },
+        {
+            text: "数据库",
+            icon: "fa-database",
+            prefix: "database/",
             children: "structure",
             collapsible: true,
         },

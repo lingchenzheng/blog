@@ -4,14 +4,20 @@ export default navbar([
     "/",
     {
         text: "我的文章",
-        icon: "pen-to-square",
+        icon: "fa-book",
         prefix: "/",
         children: [
             {
                 text: "工具相关",
-                icon: "screwdriver-wrench",
+                icon: "fa-tools",
                 prefix: "",
                 link: "tools/vscode/基础配置.html",
+            },
+            {
+                text: "数据库",
+                icon: "fa-database",
+                prefix: "",
+                link: "database/mysql/mysql安装.html",
             },
         ],
     },
